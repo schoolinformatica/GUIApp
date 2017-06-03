@@ -1,0 +1,8 @@
+/home/steven/RiderProjects/GUIApp/GUIApp/bin/Debug/GUIApp.exe
+/home/steven/RiderProjects/GUIApp/GUIApp/bin/Debug//GUIApp.pdb
+/home/steven/RiderProjects/GUIApp/GUIApp/bin/Debug/MonoGame.Framework.dll
+/home/steven/RiderProjects/GUIApp/GUIApp/bin/Debug/MonoGame.Framework.xml
+/home/steven/RiderProjects/GUIApp/GUIApp/obj/Debug/GUIApp.csprojResolveAssemblyReference.cache
+/home/steven/RiderProjects/GUIApp/GUIApp/obj/Debug/GUIApp.csproj.CoreCompileInputs.cache
+/home/steven/RiderProjects/GUIApp/GUIApp/obj/Debug/GUIApp.exe
+/home/steven/RiderProjects/GUIApp/GUIApp/obj/Debug/GUIApp.pdb
