@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\MonoGame.Framework.DesktopGL.3.6.0.1625\lib\net40\MonoGame.Framework.dll</HintPath>
+      <HintPath>..\packages\MonoGame.Framework.WindowsDX.3.6.0.1625\lib\net40\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,26 +44,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapters\Colors\Color.cs" />
+    <Compile Include="Adapters\Colors\MonoGameColor.cs" />
+    <Compile Include="Adapters\DrawingAdapters\IDrawAdapter.cs" />
+    <Compile Include="Adapters\DrawingAdapters\MonogameDrawingManager.cs" />
+    <Compile Include="Adapters\InputAdapters\IMouseAdapter.cs" />
+    <Compile Include="Adapters\InputAdapters\MonogameMouseManager.cs" />
+    <Compile Include="Decorators\ClickableDecorator.cs" />
+    <Compile Include="Decorators\GuiElementDecorator.cs" />
+    <Compile Include="Factories\GuiElementFactory.cs" />
+    <Compile Include="Factories\NormalGuiElementFactory.cs" />
     <Compile Include="Game1.cs" />
-    <Compile Include="GUI\DefaultDrawVisitor.cs" />
-    <Compile Include="GUI\DefaultUpdateVisitor.cs" />
-    <Compile Include="GUI\Elements\Button.cs" />
-    <Compile Include="GUI\Elements\GuiManager.cs" />
-    <Compile Include="GUI\Elements\IGuiElement.cs" />
+    <Compile Include="GUI\Elements\GuiGrouping.cs" />
     <Compile Include="GUI\Elements\Label.cs" />
+    <Compile Include="GUI\GuiManager.cs" />
     <Compile Include="GUI\IDrawable.cs" />
-    <Compile Include="GUI\IDrawVisitor.cs" />
+    <Compile Include="GUI\IGuiElement.cs" />
     <Compile Include="GUI\IUpdateable.cs" />
-    <Compile Include="GUI\IUpdateVisitor.cs" />
+    <Compile Include="Iterator\IOptionIterator.cs" />
+    <Compile Include="Iterator\OptionList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\Point.cs" />
-    <Compile Include="Visitor\IOption.cs" />
-    <Compile Include="Visitor\None.cs" />
-    <Compile Include="Visitor\Some.cs" />
+    <Compile Include="Utilities\Rect.cs" />
+    <Compile Include="Visitor\DrawElementVisitor.cs" />
+    <Compile Include="Visitor\IDrawElementVisitor.cs" />
+    <Compile Include="Visitor\IUpdateElementVisitor.cs" />
+    <Compile Include="Visitor\Pattern\IOption.cs" />
+    <Compile Include="Visitor\Pattern\None.cs" />
+    <Compile Include="Visitor\Pattern\Some.cs" />
+    <Compile Include="Visitor\UpdateElementVisitor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="MonoGame.Framework.dll.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

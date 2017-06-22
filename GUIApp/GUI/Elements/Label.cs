@@ -1,6 +1,8 @@
-using Microsoft.Xna.Framework;
+using ConsoleApplication1.Utilities;
+using GUIApp.Adapters.Colors;
+using GUIApp.Visitor;
 
-namespace ConsoleApplication1.GUI.Elements
+namespace GUIApp.GUI.Elements
 {
     public class Label : IGuiElement
     {
@@ -17,15 +19,14 @@ namespace ConsoleApplication1.GUI.Elements
 
         }
 
-        public void Draw(IDrawVisitor visitor)
+        public void Draw(IDrawElementVisitor visitor)
         {
-            //MISSING CODE HERE;
-            visitor.DrawLabel(this);
+            visitor.OnLabel(this);
         }
 
-        public void Update(IUpdateVisitor visitor, float dt)
+        public void Update(IUpdateElementVisitor visitor)
         {
-            visitor.UpdateLabel(this, dt);
+            visitor.OnLabel(this);
         }
     }
 }

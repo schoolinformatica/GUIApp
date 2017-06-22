@@ -1,7 +1,9 @@
-namespace ConsoleApplication1.GUI
+using GUIApp.Visitor;
+
+namespace GUIApp.GUI
 {
     public interface IUpdateable
     {
-        //MISSING CODE GOES HERE
+        void Update(IUpdateElementVisitor visitor);
     }
 }

@@ -1,7 +1,9 @@
-namespace ConsoleApplication1.GUI
+using GUIApp.Visitor;
+
+namespace GUIApp.GUI
 {
     public interface IDrawable
     {
-        void Draw(IDrawVisitor visitor);
+        void Draw(IDrawElementVisitor visitor);
     }
 }

@@ -1,8 +1,0 @@
-/home/steven/RiderProjects/ConsoleApplication1/ConsoleApplication1/bin/Debug/ConsoleApplication1.exe
-/home/steven/RiderProjects/ConsoleApplication1/ConsoleApplication1/bin/Debug//ConsoleApplication1.pdb
-/home/steven/RiderProjects/ConsoleApplication1/ConsoleApplication1/bin/Debug/MonoGame.Framework.dll
-/home/steven/RiderProjects/ConsoleApplication1/ConsoleApplication1/bin/Debug/MonoGame.Framework.xml
-/home/steven/RiderProjects/ConsoleApplication1/ConsoleApplication1/obj/Debug/ConsoleApplication1.csprojResolveAssemblyReference.cache
-/home/steven/RiderProjects/ConsoleApplication1/ConsoleApplication1/obj/Debug/ConsoleApplication1.csproj.CoreCompileInputs.cache
-/home/steven/RiderProjects/ConsoleApplication1/ConsoleApplication1/obj/Debug/ConsoleApplication1.exe
-/home/steven/RiderProjects/ConsoleApplication1/ConsoleApplication1/obj/Debug/ConsoleApplication1.pdb
